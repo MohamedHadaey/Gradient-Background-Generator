@@ -1,0 +1,38 @@
+.home{
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+}
+.home form{
+    margin: 20px auto;
+    max-width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.container{
+    height: 100%;
+}
+.row{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.item{
+    margin: auto;
+    padding: 5px;
+}
+.row .col-12:first-of-type .item{
+    max-width: 500px;
+    border-radius: 50px;
+    background-color: teal;
+}
+.row .col-12:nth-of-type(2) .item{
+    max-width: 800px;
+    background-color: #09c;
+    border-radius: 20px;
+}
